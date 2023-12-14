@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+  
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+      <title>DdolphinAboutUspage</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="stylesheet" href="css/responsive.css">
+     
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+      <style>
+         .sec {
+            width: 100%;
+            height: 50px;
+         }
+         *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+            font-family:"Arial",sans-serif;
+        }
+        .main{
+            background-color: #f8f8f8;
+            overflow:hidden;
+        }
+        .heading h1{
+            color:#df3b1e;
+            font-size:55px;
+            text-align:center;
+            margin-top:35px;
+
+        }
+        .container{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width:90%;
+            margin:65px auto;
+        }
+        .main-content{
+            flex:1;
+            width:600px;
+            margin:0px 25px;
+            animation:fadeInUp 2s ease;
+        }
+        .main-content h2{
+            font-size:38px;
+            margin-bottom:20px;
+            color:#333;
+        }
+        .main-content p{
+            font-size:24px;
+            line-height:1.5;
+            margin-bottom: 40px;
+            color:#666;
+        }
+        .main-content button{
+            display:inline-block;
+            background-color:#cd3903;
+            color:#fff;
+            padding:12px 24px;
+            border-radius: 5px;
+            font-size: 20px;
+            border:none;
+            cursor:pointer;
+            transition: 0.3s ease;
+        }
+        .main-content button:hover{
+            background-color: #c1280d;
+            transform:scale(1.1);
+
+        }
+        .main-image{
+            flex:1;
+            width:600px;
+            margin:auto;
+            animation:fadeInRight 2s ease;
+        }
+        img{
+            width:100%;
+            height:auto;
+            border-radius: 10px;
+        }
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #8c9494;
+            color: #fff;
+            padding: 1em;
+        }
+        #fb
+     {
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 500px;
+        border-radius: 50px;
+     }
+     #insta
+     {
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 70px;
+        border-radius: 50px;
+     }
+     #mail
+     {
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 70px;
+        border-radius: 50px;
+     }
+        @media screen and (max-width:768px) {
+            .heading h1{
+                font-size:45px;
+                margin-top:30px;
+            }
+            .main{
+                margin:0px;
+            }
+            .container{
+                width:100%;
+                flex-direction:column;
+                margin:0px;
+                padding:0px 40px;
+            }
+            .main-content{
+                width:100%;
+                margin:35px 0px;
+            }
+            .main-content h2{
+                font-size:30px;
+            }
+            .main-content p{
+                font-size:18px;
+                margin-bottom:20px;
+            }
+            .main-content button{
+                font-size:16px;
+                padding:8px 16px;
+            }
+            .main-image{
+                width:100%;
+            }
+        }
+    @keyframes fadeInUp{
+        0%{
+            opacity:0;
+            transform:translateY(50px);
+        }
+        100%{
+            opacity:1;
+            transform:translateY(0px);
+        }
+
+    }
+    @keyframes fadeInRight{
+        0%{
+            opacity:0;
+            transform:translateX(-50px);
+        }
+        100%{
+            opacity:1;
+            transform:translateX(0px);
+        }
+    }
+      </style>
+   </head>
+
+   <body class="main-layout">
+     
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+
+      <header>
+
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+
+                           <ul class="navbar-nav mr-auto">
+
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="#home">Home</a>
+                              </li>
+
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#about">Design</a>
+                              </li>
+                             
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#customer">Events</a>
+                              </li>
+
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#contact">Franchise</a>
+                              </li>
+
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#about">About Us</a>
+                              </li>
+
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/ddolphinlogo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+                     <ul class="email">
+                        <li><a href="#">Call: +91- 7275394960</a></li>
+                        <li><a href="#">Email: dakshit.dolphin.designers.pvt.ltd@gmail.com</a></li>
+                        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="sec">
+         &nbsp;
+      </section>
+
+      <section class="main">
+         <div class="heading">
+             <h1>
+                 About Us
+             </h1>
+         </div>
+         <div class="container">
+             <div class="main-content">
+                 <h2>Welcome To Our Website</h2>
+                 <p>D.Dolphin will carry traditional, western,
+                     trendy, casuals, party wear, to create their
+                     unique brand image where you can find
+                     everything that you need. The greatest
+                     percentage of merchandise will be in
+                     apparel, followed by accessories and gifts.
+                     Management will rely on customer feedback,
+                     suggestions, and sales reports to introduce or
+                     eliminate certain brands, styles and sizes.</p>
+                     <a href="OurTeamFinal.html"> <button class="Contact-button">Learn More</button></a>
+             </div>
+             <div class="main-image">
+                 <img src="a1.jpg">
+             </div>
+         </div>
+      </section>
+ 
+
+ 
+ 
+      <footer id="contact">
+         <div class="footer">
+            <div class="container">
+                  <div class="col-xl-6 col-md-12">
+                     <div class="row">
+                        <div class="col-md-6 offset-md-1 padd_bottom">
+                           <div class="heading3">
+                              <h3>Contact Us</h3>
+                                 <ul class="infometion">
+                                    <li><a href="https://www.ddolphins.com" target="_blank">www.ddolphins.com </a></li>
+                                    <li><a href="#">+91 7275394960</a></li>
+                                    <li><a href="mailto:d.dolphin.pvt.ltd@gmail.com" >d.dolphin.pvt.ltd@gmail.com</a></li>
+                                    
+                                 </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-5">
+                           <div class="heading3">
+                              <h3>ADDRESS</h3>
+                              <ul class="infometion">
+                                 <li><a href="#">Ward No.13,House No.186,Gurguj Lajpatnagar,near Punjab Sindh Bank,Sumerpur<br>Bharuwa Sumerpur, Uttar Pradesh 210502 </a></li>
+                                 
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+     
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         $('a[href^="#"]').on('click', function(event) {
+         
+          var target = $(this.getAttribute('href'));
+         
+          if( target.length ) {
+              event.preventDefault();
+              $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+              }, 2000);
+          }
+         
+         });
+      </script>
+   </body>
+</html>
+
